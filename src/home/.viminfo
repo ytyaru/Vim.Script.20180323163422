@@ -1,0 +1,2473 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/root_db_template
+
+# 最後の Substitute 検索パターン:
+~MSle0&self.__path_file_commands
+
+# 最後に置換された文字列:
+$self.__path_file_this
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q!
+:q
+:source /tmp/work/yank.vim
+:wq
+:w
+:%y
+:%s/self.__path_file_commands/self.__path_file_this/g
+:%s/__v/__V/g
+:s%__private%__v%g
+:%
+:kkkkkkkkkkkkkkkk
+:uu
+:dw
+:help
+:%s%/tmp/work/%/tmp/work/flow/%g
+:%s%\$ y %\$ do %g
+:%s%/tmp/work/y/%/tmp/work/do/%g
+:set lineno
+:line
+:wq!
+:set number
+:packages
+:package
+:help packages
+:syntax: on
+:qw
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/root_db_template
+? \<if\>
+? \<with\>
+?/self.__p2c
+? \<return\>
+? self.__path_file_commands
+?/template
+?/self.__path_file_commands
+?/self.__path_dir_res
+?/FileP
+?/FilePath
+?//tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/ini
+? \<self\>
+? __v
+? __private
+? \<8\>
+?/print
+? \<CommandReplaceFile\>
+? \<for\>
+?/_chrome()
+? \<To\>
+?/CompPoint2Command
+?/CommandsFile
+? ))
+? \<path\>
+?/printf
+?/print(
+? \<pathlib\>
+? /tmp/work/
+? \$ y 
+? /tmp/work/y/
+? \<echo\>
+? \<aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\>
+? \<search_res\>
+? \<raise_for_status\>
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""0	CHAR	0
+	* 
+"1	LINE	0
+	        self.__LoadCommandsDirPathFromMetaFile()
+"2	CHAR	0
+	
+	    def __LoadCommandsDirPathFromMetaFile(self):
+	        work_paths = self.__LoadMetaPath('work')
+	        root_paths = self.__LoadMetaPath('root')
+	        self.__path_file_this = pathlib.Path(work_paths['work_meta_command_do']) / self.__file_name
+	        self.__path_dir_template = pathlib.Path(root_paths['root_db_template']) / self.__file_name
+	        if not self.__path_dir_template.is_dir():
+	            self.__path_dir_template = self.__path_dir_res
+	        self.__path_file_this.parent.mkdir(parents=True, exist_ok=True)
+	
+	
+"3	LINE	0
+	
+"4	LINE	0
+	        self.__path_file_this.parent.mkdir(parents=True, exist_ok=True)
+"5	LINE	0
+	        self.__path_file_this = pathlib.Path(work_paths['work_meta_command_do']) / self.__file_name
+"6	LINE	0
+	        work_paths = self.__LoadMetaPath('work')
+"7	LINE	0
+	
+"8	LINE	0
+	            self.__path_dir_template = self.__path_dir_res
+"9	LINE	0
+	        if not self.__path_dir_template.is_dir():
+"-	CHAR	0
+	"
+
+# ファイルマーク:
+'0  1  57  /tmp/work/yank.vim
+'1  16  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+'2  83  0  /tmp/work/Python.TemplateFileMaker.20180314204216/res/commands.tsv
+'3  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/res/command_replace.tsv
+'4  5  33  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+'5  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/setup_complete_candidate.sh
+'6  7  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+'7  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/complete_test_7_1.sh
+'8  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetCompleteCandidate.py
+'9  11  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+
+# ジャンプリスト (新しいものが先):
+-'  1  57  /tmp/work/yank.vim
+-'  16  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  83  0  /tmp/work/Python.TemplateFileMaker.20180314204216/res/commands.tsv
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/res/commands.tsv
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/res/command_replace.tsv
+-'  5  33  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/setup_complete_candidate.sh
+-'  7  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+-'  2  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+-'  1  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/complete_test_7_1.sh
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetCompleteCandidate.py
+-'  11  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+-'  40  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetCompleteCandidate.py
+-'  9  16  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+-'  41  0  /tmp/work/Python.TemplateFileMaker.20180314204216/memo/structure.md
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/memo/structure.md
+-'  31  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  9  24  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  32  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  43  36  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  21  2  /tmp/work/Python.TemplateFileMaker.20180314204216/memo/structure.md
+-'  1  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/IniToSh.py
+-'  22  0  /tmp/work/Python.TemplateFileMaker.20180314204216/memo/structure.md
+-'  1  0  /tmp/work/data.sh
+-'  1  0  /tmp/work/test.sh
+-'  2  23  /tmp/work/test.sh
+-'  3  0  /tmp/work/test.sh
+-'  3  37  /tmp/work/data.sh
+-'  3  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/sh_var/root.sh
+-'  1  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/sh_var/root.sh
+-'  21  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/PathToCommand.py
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/PathToCommand.py
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetTemplateFilePath.py
+-'  3  3  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  5  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  11  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  12  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  42  25  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  24  15  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  19  38  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  15  62  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  29  29  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  14  31  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  34  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  3  17  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  5  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  9  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  38  43  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  30  18  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  7  19  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  37  61  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  18  24  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  16  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  14  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  12  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  46  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  40  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  33  1  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  20  20  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  44  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  13  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  3  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  4  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  5  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/PathToCommand.py
+-'  3  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/PathToCommand.py
+-'  7  15  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  28  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  6  1  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  2  1  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  9  1  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  7  1  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  4  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  1  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/load_ini.sh
+-'  23  0  /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+-'  56  23  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  8  28  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  15  31  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  5  11  /tmp/work/Python.TemplateFileMaker.20180314204216/src/TsvFile.py
+-'  1  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/TsvFile.py
+-'  20  28  /tmp/work/Python.TemplateFileMaker.20180314204216/src/TsvFile.py
+-'  25  16  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+-'  36  26  /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+-'  22  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/PathToCommand.py
+-'  10  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetTemplateFilePath.py
+-'  3  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetCompleteCandidate.py
+-'  22  31  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetCompleteCandidate.py
+-'  11  0  /tmp/work/Python.TemplateFileMaker.20180314204216/src/PathToCommand.py
+-'  14  12  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  11  12  /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+-'  9  8  /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetTemplateFilePath.py
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> /tmp/work/yank.vim
+	"	1	57
+	.	1	0
+	+	1	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFile.py
+	"	16	0
+	^	11	42
+	.	11	41
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	97
+	+	9	35
+	+	9	26
+	+	9	61
+	+	9	27
+	+	9	62
+	+	9	99
+	+	9	0
+	+	9	0
+	+	9	71
+	+	9	12
+	+	9	12
+	+	12	8
+	+	9	46
+	+	9	12
+	+	9	12
+	+	9	42
+	+	9	0
+	+	9	91
+	+	12	8
+	+	9	0
+	+	9	12
+	+	9	12
+	+	21	12
+	+	19	0
+	+	19	8
+	+	9	8
+	+	9	8
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	91
+	+	9	13
+	+	9	46
+	+	9	8
+	+	9	8
+	+	9	8
+	+	9	8
+	+	9	12
+	+	9	8
+	+	9	8
+	+	9	0
+	+	9	12
+	+	9	12
+	+	21	0
+	+	19	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	4	32
+	+	5	0
+	+	6	0
+	+	5	29
+	+	9	0
+	+	7	35
+	+	9	10
+	+	9	11
+	+	9	7
+	+	9	4
+	+	9	0
+	+	9	4
+	+	9	7
+	+	9	6
+	+	9	6
+	+	24	3
+	+	33	6
+	+	33	6
+	+	23	0
+	+	30	0
+	+	30	0
+	+	33	0
+	+	31	19
+	+	32	0
+	+	7	15
+	+	3	0
+	+	21	8
+	+	19	35
+	+	14	8
+	+	13	25
+	+	21	0
+	+	21	12
+	+	21	0
+	+	20	61
+	+	8	0
+	+	29	13
+	+	12	0
+	+	10	3
+	+	12	0
+	+	14	0
+	+	21	0
+	+	33	0
+	+	11	41
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/commands.tsv
+	"	83	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/command_replace.tsv
+	"	1	0
+	^	5	6
+	.	5	5
+	+	1	0
+	+	2	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	3	5
+	+	4	5
+	+	5	5
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/ConfigFile.py
+	"	5	33
+	^	32	4
+	.	13	0
+	+	56	7
+	+	56	0
+	+	31	71
+	+	31	0
+	+	31	13
+	+	31	53
+	+	31	61
+	+	19	38
+	+	18	0
+	+	20	0
+	+	19	38
+	+	4	0
+	+	13	0
+	+	33	0
+	+	33	48
+	+	39	39
+	+	40	49
+	+	41	81
+	+	44	67
+	+	43	18
+	+	44	15
+	+	43	51
+	+	44	42
+	+	45	157
+	+	33	50
+	+	33	8
+	+	33	8
+	+	45	8
+	+	46	18
+	+	34	0
+	+	39	45
+	+	31	0
+	+	31	0
+	+	31	9
+	+	31	8
+	+	31	0
+	+	31	48
+	+	31	49
+	+	45	8
+	+	34	0
+	+	38	0
+	+	34	0
+	+	31	7
+	+	31	15
+	+	31	8
+	+	31	55
+	+	31	44
+	+	31	0
+	+	31	8
+	+	31	16
+	+	31	10
+	+	31	18
+	+	31	76
+	+	31	0
+	+	31	0
+	+	31	47
+	+	31	47
+	+	39	37
+	+	43	36
+	+	31	51
+	+	31	0
+	+	31	0
+	+	33	0
+	+	55	53
+	+	55	49
+	+	55	11
+	+	55	12
+	+	50	97
+	+	52	38
+	+	51	39
+	+	52	16
+	+	55	0
+	+	50	95
+	+	49	15
+	+	50	20
+	+	49	16
+	+	50	24
+	+	53	159
+	+	55	0
+	+	54	0
+	+	13	0
+	+	10	30
+	+	27	8
+	+	20	0
+	+	21	3
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	24
+	+	21	17
+	+	27	0
+	+	28	0
+	+	31	0
+	+	11	22
+	+	12	26
+	+	11	12
+	+	12	8
+	+	33	0
+	+	32	3
+	+	13	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/setup_complete_candidate.sh
+	"	1	0
+	.	16	0
+	+	16	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_command/do
+	"	7	0
+	.	8	0
+	+	1	0
+	+	2	0
+	+	20	9
+	+	6	95
+	+	18	10
+	+	16	72
+	+	20	14
+	+	20	20
+	+	17	0
+	+	16	1
+	+	17	64
+	+	10	0
+	+	7	56
+	+	10	8
+	+	7	0
+	+	9	86
+	+	10	0
+	+	8	0
+	+	10	29
+	+	8	56
+	+	22	0
+	+	21	28
+	+	19	35
+	+	20	18
+	+	11	0
+	+	20	0
+	+	15	0
+	+	7	0
+	+	7	88
+	+	7	51
+	+	8	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/complete_test_7.sh
+	"	18	29
+	^	7	12
+	.	8	0
+	+	15	84
+	+	17	3
+	+	20	0
+	+	17	51
+	+	20	0
+	+	11	91
+	+	15	74
+	+	20	4
+	+	12	10
+	+	13	0
+	+	14	0
+	+	13	18
+	+	14	19
+	+	13	30
+	+	14	32
+	+	20	0
+	+	16	4
+	+	15	45
+	+	12	4
+	+	13	4
+	+	14	4
+	+	16	4
+	+	15	14
+	+	16	4
+	+	16	0
+	+	20	0
+	+	18	4
+	+	17	5
+	+	15	0
+	+	15	0
+	+	16	5
+	+	18	4
+	+	17	5
+	+	18	0
+	+	20	4
+	+	19	0
+	+	20	0
+	+	19	41
+	+	16	4
+	+	13	4
+	+	16	4
+	+	15	4
+	+	16	4
+	+	15	4
+	+	8	0
+	+	7	0
+	+	8	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/complete_test_7_1.sh
+	"	1	0
+	^	19	5
+	.	18	4
+	+	11	4
+	+	12	4
+	+	13	4
+	+	14	4
+	+	15	4
+	+	19	4
+	+	18	4
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetCompleteCandidate.py
+	"	39	0
+	^	35	0
+	.	3	0
+	+	39	37
+	+	23	32
+	+	23	33
+	+	23	32
+	+	32	20
+	+	33	20
+	+	33	21
+	+	23	32
+	+	32	17
+	+	33	48
+	+	33	53
+	+	19	8
+	+	38	23
+	+	39	72
+	+	19	8
+	+	19	8
+	+	19	8
+	+	33	16
+	+	33	16
+	+	23	32
+	+	32	80
+	+	32	41
+	+	23	32
+	+	23	39
+	+	5	37
+	+	6	30
+	+	39	83
+	+	38	117
+	+	23	48
+	+	20	78
+	+	32	74
+	+	32	20
+	+	23	48
+	+	19	24
+	+	19	8
+	+	32	20
+	+	32	32
+	+	23	16
+	+	23	16
+	+	40	4
+	+	39	96
+	+	33	57
+	+	19	0
+	+	19	8
+	+	19	21
+	+	32	20
+	+	32	20
+	+	34	8
+	+	33	51
+	+	21	0
+	+	20	8
+	+	21	0
+	+	20	72
+	+	20	0
+	+	20	73
+	+	25	79
+	+	27	75
+	+	31	48
+	+	32	20
+	+	25	77
+	+	23	55
+	+	25	77
+	+	23	16
+	+	23	16
+	+	23	16
+	+	32	0
+	+	33	0
+	+	23	73
+	+	23	16
+	+	27	77
+	+	32	21
+	+	31	0
+	+	23	16
+	+	24	19
+	+	27	66
+	+	20	20
+	+	24	52
+	+	25	37
+	+	27	74
+	+	29	25
+	+	28	56
+	+	31	23
+	+	3	1
+	+	3	25
+	+	11	0
+	+	11	0
+	+	3	0
+	+	16	8
+	+	15	47
+	+	3	0
+	+	20	0
+	+	24	0
+	+	23	16
+	+	32	0
+	+	34	0
+	+	36	0
+	+	34	0
+	+	40	0
+	+	16	0
+	+	3	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/GetTemplateFilePath.py
+	"	1	0
+	.	9	0
+	+	1	25
+	+	1	27
+	+	4	41
+	+	6	29
+	+	6	36
+	+	9	11
+	+	6	8
+	+	8	8
+	+	11	20
+	+	5	58
+	+	11	48
+	+	14	0
+	+	11	47
+	+	15	0
+	+	14	118
+	+	16	0
+	+	1	0
+	+	2	0
+	+	11	19
+	+	8	23
+	+	5	52
+	+	11	21
+	+	11	53
+	+	8	0
+	+	6	21
+	+	8	11
+	+	11	76
+	+	8	10
+	+	8	21
+	+	8	0
+	+	3	17
+	+	12	58
+	+	13	21
+	+	14	18
+	+	13	25
+	+	12	16
+	+	11	12
+	+	12	16
+	+	11	0
+	+	10	0
+	+	7	0
+	+	9	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/memo/structure.md
+	"	41	0
+	^	5	44
+	.	5	43
+	+	26	0
+	+	27	0
+	+	25	36
+	+	26	44
+	+	27	43
+	+	28	37
+	+	32	0
+	+	21	19
+	+	22	0
+	+	109	17
+	+	109	0
+	+	38	16
+	+	39	0
+	+	109	0
+	+	33	0
+	+	43	0
+	+	45	0
+	+	46	18
+	+	50	32
+	+	109	0
+	+	42	37
+	+	55	97
+	+	57	35
+	+	58	176
+	+	57	38
+	+	62	53
+	+	63	13
+	+	47	13
+	+	53	23
+	+	63	159
+	+	62	77
+	+	67	2
+	+	72	189
+	+	78	216
+	+	80	23
+	+	109	2
+	+	109	5
+	+	109	2
+	+	109	37
+	+	109	0
+	+	109	9
+	+	109	6
+	+	109	3
+	+	109	0
+	+	109	0
+	+	109	0
+	+	109	4
+	+	109	0
+	+	109	0
+	+	109	10
+	+	109	0
+	+	109	0
+	+	109	0
+	+	109	0
+	+	109	0
+	+	109	0
+	+	109	0
+	+	101	10
+	+	102	0
+	+	104	5
+	+	105	0
+	+	107	0
+	+	108	103
+	+	108	0
+	+	109	0
+	+	109	0
+	+	92	0
+	+	85	0
+	+	84	5
+	+	89	2
+	+	85	7
+	+	89	0
+	+	85	5
+	+	89	0
+	+	88	5
+	+	86	32
+	+	88	0
+	+	87	3
+	+	82	10
+	+	92	0
+	+	91	8
+	+	93	0
+	+	99	2
+	+	94	13
+	+	95	37
+	+	96	0
+	+	97	87
+	+	89	3
+	+	30	40
+	+	23	30
+	+	23	31
+	+	23	30
+	+	24	0
+	+	23	37
+	+	20	12
+	+	23	0
+	+	13	25
+	+	11	25
+	+	14	14
+	+	5	43
+
+> /tmp/work/flow/do/1.cs
+	"	1	0
+
+> /tmp/work/flow/do/0.cs
+	"	1	0
+
+> /tmp/work/flow/do/.cs
+	"	1	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFile.py
+	"	1	0
+	^	26	0
+	.	25	0
+	+	25	0
+	+	25	37
+	+	25	28
+	+	25	66
+	+	25	38
+	+	25	62
+	+	25	8
+	+	25	23
+	+	25	43
+	+	25	8
+	+	25	8
+	+	25	8
+	+	25	35
+	+	25	8
+	+	25	8
+	+	25	0
+	+	25	5
+	+	25	0
+	+	25	33
+	+	25	46
+	+	25	8
+	+	25	14
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	25	8
+	+	25	0
+	+	28	37
+	+	25	8
+	+	25	52
+	+	25	9
+	+	25	52
+	+	25	8
+	+	25	8
+	+	25	8
+	+	25	9
+	+	25	8
+	+	25	8
+	+	25	8
+	+	25	0
+	+	6	0
+	+	25	0
+	+	9	0
+	+	9	0
+	+	6	0
+	+	7	0
+	+	2	14
+	+	4	0
+	+	6	35
+	+	8	26
+	+	9	8
+	+	9	8
+	+	9	8
+	+	9	6
+	+	25	4
+	+	25	0
+	+	10	3
+	+	17	0
+	+	10	19
+	+	15	0
+	+	11	7
+	+	13	8
+	+	15	3
+	+	16	11
+	+	13	0
+	+	17	0
+	+	17	0
+	+	13	0
+	+	16	14
+	+	17	0
+	+	12	0
+	+	11	8
+	+	11	8
+	+	11	27
+	+	11	30
+	+	3	17
+	+	14	13
+	+	15	62
+	+	19	39
+	+	22	68
+	+	23	17
+	+	11	12
+	+	11	8
+	+	11	8
+	+	11	0
+	+	11	0
+	+	12	23
+	+	10	0
+	+	12	0
+	+	27	0
+	+	25	0
+
+> /tmp/work/flow/do/m.cs
+	"	1	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/IniToSh.py
+	"	1	0
+	^	27	29
+	.	15	53
+	+	46	0
+	+	38	0
+	+	38	9
+	+	38	8
+	+	38	0
+	+	33	49
+	+	37	41
+	+	43	57
+	+	38	0
+	+	4	0
+	+	45	13
+	+	45	51
+	+	38	18
+	+	45	38
+	+	33	0
+	+	33	27
+	+	34	73
+	+	33	0
+	+	19	8
+	+	18	8
+	+	19	8
+	+	19	8
+	+	19	8
+	+	18	0
+	+	18	0
+	+	19	8
+	+	14	49
+	+	19	8
+	+	19	8
+	+	32	8
+	+	32	20
+	+	32	50
+	+	29	24
+	+	32	27
+	+	33	0
+	+	32	20
+	+	29	0
+	+	32	0
+	+	32	8
+	+	33	0
+	+	32	8
+	+	33	0
+	+	32	44
+	+	38	0
+	+	46	32
+	+	37	33
+	+	46	7
+	+	46	52
+	+	46	8
+	+	46	28
+	+	46	0
+	+	46	27
+	+	46	44
+	+	46	77
+	+	46	19
+	+	46	0
+	+	17	65
+	+	14	20
+	+	18	33
+	+	19	8
+	+	29	8
+	+	29	0
+	+	16	0
+	+	14	0
+	+	15	0
+	+	46	5
+	+	46	18
+	+	17	31
+	+	46	21
+	+	17	33
+	+	46	0
+	+	46	4
+	+	46	0
+	+	46	0
+	+	46	56
+	+	46	0
+	+	33	0
+	+	35	7
+	+	32	0
+	+	35	0
+	+	32	8
+	+	32	0
+	+	29	7
+	+	32	0
+	+	35	0
+	+	28	0
+	+	29	0
+	+	28	13
+	+	35	49
+	+	36	0
+	+	18	41
+	+	27	34
+	+	18	49
+	+	27	49
+	+	29	0
+	+	27	28
+	+	46	0
+	+	19	1
+	+	46	0
+	+	15	53
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/IniToSh.py_
+	"	1	0
+
+> /tmp/work/0.py
+	"	1	0
+	.	11	0
+	+	11	22
+	+	8	26
+	+	11	29
+	+	13	16
+	+	11	21
+	+	14	9
+	+	11	35
+	+	14	0
+	+	12	11
+	+	11	0
+	+	11	35
+	+	11	0
+	+	11	0
+	+	11	1
+	+	11	17
+	+	11	0
+	+	11	1
+	+	11	15
+	+	11	0
+	+	11	0
+	+	11	26
+	+	11	0
+	+	11	0
+	+	11	23
+	+	11	0
+	+	11	0
+	+	10	33
+	+	11	0
+	+	11	0
+	+	11	23
+	+	2	19
+	+	8	30
+	+	8	17
+	+	8	44
+	+	8	51
+	+	3	39
+	+	4	30
+	+	7	20
+	+	8	4
+	+	8	4
+	+	8	4
+	+	8	54
+	+	8	0
+	+	11	36
+	+	7	39
+	+	10	0
+	+	9	0
+	+	11	0
+	+	11	0
+
+> /tmp/work/data.sh
+	"	4	21
+	^	4	22
+	.	4	21
+	+	3	33
+	+	1	10
+	+	3	13
+	+	1	0
+	+	3	0
+	+	1	15
+	+	2	22
+	+	3	38
+	+	4	21
+	+	5	35
+	+	4	21
+
+> /tmp/work/test.sh
+	"	1	0
+	^	3	23
+	.	3	13
+	+	2	6
+	+	2	23
+	+	3	13
+
+> /tmp/work/0.py[
+	"	1	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/sh_var/root.sh
+	"	3	0
+	^	2	14
+	.	4	0
+	+	4	0
+	+	1	21
+	+	2	26
+	+	4	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/PathToCommand.py
+	"	21	0
+	.	14	0
+	+	1	19
+	+	1	32
+	+	1	0
+	+	1	54
+	+	23	75
+	+	23	66
+	+	23	49
+	+	1	46
+	+	23	56
+	+	1	14
+	+	23	0
+	+	1	29
+	+	1	48
+	+	1	44
+	+	1	24
+	+	23	0
+	+	23	12
+	+	23	41
+	+	23	51
+	+	23	41
+	+	23	15
+	+	23	22
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	32
+	+	1	8
+	+	1	7
+	+	1	8
+	+	1	19
+	+	1	29
+	+	23	29
+	+	1	19
+	+	23	40
+	+	23	17
+	+	23	15
+	+	23	0
+	+	23	8
+	+	23	16
+	+	23	22
+	+	1	0
+	+	1	8
+	+	1	26
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	16
+	+	1	8
+	+	1	8
+	+	23	26
+	+	23	0
+	+	23	16
+	+	23	47
+	+	23	54
+	+	23	16
+	+	23	54
+	+	23	16
+	+	23	12
+	+	1	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	1	0
+	+	23	0
+	+	1	68
+	+	1	0
+	+	23	0
+	+	23	0
+	+	1	0
+	+	23	0
+	+	4	0
+	+	1	0
+	+	4	0
+	+	23	0
+	+	14	16
+	+	11	33
+	+	12	12
+	+	8	8
+	+	11	0
+	+	13	0
+	+	14	17
+	+	13	26
+	+	11	8
+	+	13	16
+	+	8	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+
+> /tmp/work/flow/do/0.py
+	"	1	0
+
+> /tmp/work/flow/do/i.cs
+	"	1	0
+
+> /tmp/work/flow/do/h.cs
+	"	1	0
+
+> /tmp/work/.meta/_command/do/command_replace.tsv
+	"	1	0
+
+> /tmp/work/.meta/_command/do/commands.tsv
+	"	42	0
+
+> /tmp/work/flow/do/e.cs
+	"	1	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	1	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/load_ini.sh
+	"	1	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/_meta/path/ini/root.ini
+	"	11	35
+	^	11	35
+	.	12	0
+	+	10	30
+	+	11	0
+	+	12	0
+	+	11	0
+	+	12	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/.meta/root.ini
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/TsvFile.py
+	"	5	11
+	^	5	12
+	.	5	11
+	+	42	16
+	+	41	31
+	+	42	16
+	+	42	0
+	+	44	0
+	+	42	19
+	+	43	37
+	+	44	0
+	+	5	11
+
+> /tmp/work/flow/do/g.cs
+	"	1	0
+
+> /tmp/work/flow/do/f.cs
+	"	1	0
+
+> /tmp/work/flow/do/d.cs
+	"	1	0
+
+> /tmp/work/flow/do/c.cs
+	"	1	0
+
+> /tmp/work/flow/do/b.cs
+	"	1	0
+
+> /tmp/work/flow/do/a.cs
+	"	1	0
+
+> /tmp/work/flow/do/9.cs
+	"	1	0
+
+> /tmp/work/flow/do/8.cs
+	"	1	0
+
+> /tmp/work/flow/do/6.cs
+	"	1	0
+
+> /tmp/work/flow/do/5.cs
+	"	1	0
+
+> /tmp/work/flow/do/4.cs
+	"	1	0
+
+> /tmp/work/flow/do/2.py
+	"	1	0
+
+> /tmp/work/flow/do/1.py
+	"	1	0
+
+> /tmp/work/flow/do/3.cs
+	"	98	0
+
+> /tmp/work/flow/do/2.cs
+	"	1	0
+
+> /tmp/work/flow/do/7.cs
+	"	1	0
+
+> /tmp/work/flow/do/0.sh
+	"	1	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/.meta/ini_parser.sh
+	"	13	4
+	^	3	11
+	.	14	0
+	+	1	0
+	+	1	16
+	+	1	16
+	+	14	9
+	+	2	13
+	+	3	126
+	+	4	0
+	+	4	11
+	+	5	13
+	+	1	0
+	+	1	0
+	+	3	20
+	+	3	129
+	+	3	10
+	+	4	0
+	+	2	0
+	+	6	0
+	+	7	0
+	+	14	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/.meta/test.sh
+	"	4	0
+	^	3	27
+	.	5	0
+	+	4	10
+	+	1	0
+	+	3	0
+	+	1	0
+	+	2	0
+	+	3	26
+	+	5	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/.meta/load.sh
+	"	3	9
+	^	3	10
+	.	3	9
+	+	3	9
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/.meta/work.ini
+	"	1	0
+	.	13	0
+	+	13	0
+	+	1	0
+	+	13	0
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/src/script/sh/_userlib/path.sh
+	"	1	0
+	^	8	18
+	.	8	17
+	+	26	0
+	+	25	0
+	+	18	48
+	+	19	0
+	+	20	37
+	+	19	0
+	+	20	0
+	+	21	0
+	+	23	0
+	+	22	37
+	+	21	11
+	+	23	0
+	+	22	8
+	+	24	10
+	+	20	40
+	+	22	36
+	+	24	38
+	+	23	13
+	+	24	46
+	+	25	0
+	+	20	10
+	+	22	7
+	+	24	7
+	+	6	0
+	+	6	0
+	+	9	0
+	+	6	37
+	+	7	0
+	+	8	0
+	+	7	36
+	+	8	0
+	+	9	0
+	+	8	17
+
+> /tmp/work/c.py
+	"	8	0
+	^	9	17
+	.	9	16
+	+	1	19
+	+	2	0
+	+	10	0
+	+	3	31
+	+	5	22
+	+	6	19
+	+	7	33
+	+	9	99
+	+	8	7
+	+	9	6
+	+	8	7
+	+	9	16
+
+> /tmp/work/a.ini
+	"	7	3
+	^	7	4
+	.	7	3
+	+	5	5
+	+	8	13
+	+	7	3
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/memo/command/output.md
+	"	61	0
+	^	59	34
+	.	60	61
+	+	6	3
+	+	3	4
+	+	16	14
+	+	17	19
+	+	19	0
+	+	16	0
+	+	32	2
+	+	47	45
+	+	57	191
+	+	59	54
+	+	60	2
+	+	59	33
+	+	60	61
+
+> /tmp/work/RaspberryPi.Home.Root.20180318143826/memo/command/command_name.md
+	"	60	0
+	^	5	18
+	.	5	15
+	+	1	0
+	+	1	0
+	+	3	67
+	+	5	15
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Lib/regex.py
+	"	3	29
+	^	3	30
+	.	3	29
+	+	2	24
+	+	3	29
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Lib/re.py
+	"	2	42
+	^	2	43
+	.	2	42
+	+	2	42
+
+> /tmp/work/b.py
+	"	9	6
+	^	7	27
+	.	7	26
+	+	2	4
+	+	2	4
+	+	3	39
+	+	3	8
+	+	4	5
+	+	6	5
+	+	5	8
+	+	7	8
+	+	13	9
+	+	13	10
+	+	13	13
+	+	5	44
+	+	5	59
+	+	7	38
+	+	7	49
+	+	13	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	11	0
+	+	2	0
+	+	4	0
+	+	6	0
+	+	1	10
+	+	3	26
+	+	5	33
+	+	7	26
+	m	2	4
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/descriptor_class.py
+	"	16	0
+	.	17	0
+	+	7	26
+	+	3	35
+	+	5	29
+	+	6	37
+	+	5	24
+	+	7	27
+	+	8	29
+	+	17	0
+	+	17	0
+	+	17	6
+	+	16	6
+	+	15	2
+	+	17	3
+	+	17	2
+	+	17	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/staticmethod.py
+	"	5	19
+	^	5	20
+	.	5	19
+	+	2	0
+	+	3	13
+	+	5	19
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/classmethod.py
+	"	6	0
+	.	7	0
+	+	2	11
+	+	4	37
+	+	5	0
+	+	6	15
+	+	7	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/class_name_mangling.py
+	"	9	6
+	^	9	7
+	.	9	6
+	+	3	21
+	+	10	0
+	+	4	41
+	+	3	27
+	+	5	0
+	+	1	6
+	+	9	1
+	+	10	0
+	+	8	0
+	+	3	15
+	+	4	34
+	+	3	0
+	+	8	6
+	+	9	6
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/descriptor_decorator.py
+	"	9	0
+	.	9	0
+	+	8	0
+	+	9	0
+	+	8	0
+	+	3	16
+	+	3	38
+	+	4	0
+	+	3	53
+	+	2	41
+	+	9	6
+	+	2	0
+	+	9	0
+	+	3	31
+	+	3	46
+	+	5	46
+	+	7	26
+	+	5	27
+	+	9	7
+	+	12	6
+	+	9	20
+	+	9	21
+	+	9	8
+	+	9	8
+	+	9	19
+	+	9	0
+	+	9	0
+	+	9	0
+	+	12	0
+	+	9	8
+	+	9	7
+	+	9	8
+	+	9	8
+	+	9	8
+	+	9	0
+	+	9	0
+	+	9	8
+	+	13	0
+	+	9	11
+	+	9	21
+	+	9	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/descriptor_instance.py
+	"	1	0
+	.	11	0
+	+	2	34
+	+	3	0
+	+	4	0
+	+	3	19
+	+	4	23
+	+	2	49
+	+	3	35
+	+	4	32
+	+	3	23
+	+	5	0
+	+	4	20
+	+	3	30
+	+	4	29
+	+	5	34
+	+	6	0
+	+	7	2
+	+	7	2
+	+	7	9
+	+	7	2
+	+	7	3
+	+	7	8
+	+	2	0
+	+	2	19
+	+	2	20
+	+	2	0
+	+	7	7
+	+	11	9
+	+	11	0
+	+	11	10
+	+	11	6
+	+	7	0
+	+	11	0
+	+	7	10
+	+	7	2
+	+	12	2
+	+	2	0
+	+	2	0
+	+	9	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	8	0
+	+	11	0
+
+> /tmp/work/a.py
+	"	17	26
+	^	17	27
+	.	17	26
+	+	1	0
+	+	30	0
+	+	1	21
+	+	28	4
+	+	1	10
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	21
+	+	1	0
+	+	1	0
+	+	1	0
+	+	28	0
+	+	1	0
+	+	26	0
+	+	1	0
+	+	26	0
+	+	1	0
+	+	7	27
+	+	12	14
+	+	17	14
+	+	17	26
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/descriptor_decorator.py_
+	"	1	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/descriptor.py
+	"	13	0
+	^	12	10
+	.	13	0
+	+	13	0
+	+	4	47
+	+	2	31
+	+	4	40
+	+	4	0
+	+	5	14
+	+	6	38
+	+	5	25
+	+	6	37
+	+	4	19
+	+	6	18
+	+	9	4
+	+	9	47
+	+	7	7
+	+	9	23
+	+	9	7
+	+	13	14
+	+	2	34
+	+	13	12
+	+	14	0
+	+	8	19
+	+	10	2
+	+	11	9
+	+	12	9
+	+	9	0
+	+	13	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/namedtuple.py
+	"	1	14
+	^	8	21
+	.	9	0
+	+	1	18
+	+	4	11
+	+	3	15
+	+	5	13
+	+	4	0
+	+	7	24
+	+	9	10
+	+	10	0
+	+	4	29
+	+	8	0
+	+	9	0
+	+	9	0
+	+	6	0
+	+	8	20
+	+	9	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/type.py
+	"	8	0
+	^	4	0
+	.	3	0
+	+	9	0
+	+	1	47
+	+	3	14
+	+	1	52
+	+	5	0
+	+	5	27
+	+	6	23
+	+	5	0
+	+	7	0
+	+	7	0
+	+	8	0
+	+	7	22
+	+	8	19
+	+	7	0
+	+	3	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/function/lambda.py
+	"	2	0
+	.	9	0
+	+	5	0
+	+	3	0
+	+	2	12
+	+	3	0
+	+	4	29
+	+	4	2
+	+	4	0
+	+	4	33
+	+	4	0
+	+	5	0
+	+	9	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/operator.py
+	"	70	0
+	.	69	0
+	+	10	10
+	+	21	10
+	+	10	24
+	+	2	0
+	+	1	26
+	+	21	27
+	+	20	0
+	+	14	11
+	+	15	11
+	+	16	11
+	+	17	11
+	+	18	11
+	+	19	11
+	+	18	16
+	+	19	16
+	+	29	25
+	+	71	0
+	+	71	0
+	+	71	0
+	+	71	18
+	+	71	25
+	+	71	0
+	+	71	0
+	+	22	12
+	+	30	30
+	+	71	24
+	+	71	24
+	+	71	0
+	+	71	0
+	+	30	0
+	+	35	6
+	+	36	37
+	+	39	12
+	+	38	14
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	71	0
+	+	40	11
+	+	41	10
+	+	42	6
+	+	43	11
+	+	44	8
+	+	45	11
+	+	45	10
+	+	46	13
+	+	47	7
+	+	48	21
+	+	71	0
+	+	45	0
+	+	46	15
+	+	45	13
+	+	46	17
+	+	45	13
+	+	45	11
+	+	46	0
+	+	46	4
+	+	46	15
+	+	71	15
+	+	71	9
+	+	71	8
+	+	71	14
+	+	71	0
+	+	71	0
+	+	71	16
+	+	71	0
+	+	49	19
+	+	49	21
+	+	51	13
+	+	71	0
+	+	52	19
+	+	53	25
+	+	54	26
+	+	56	0
+	+	55	15
+	+	57	32
+	+	58	20
+	+	59	0
+	+	60	0
+	+	61	0
+	+	59	18
+	+	60	14
+	+	61	0
+	+	62	32
+	+	63	21
+	+	64	24
+	+	67	16
+	+	69	12
+	+	66	26
+	+	68	0
+	+	67	10
+	+	69	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/comprehension.py
+	"	1	0
+	.	35	0
+	+	14	8
+	+	16	41
+	+	17	7
+	+	16	12
+	+	20	7
+	+	2	15
+	+	15	0
+	+	14	14
+	+	35	0
+	+	35	0
+	+	20	17
+	+	21	0
+	+	22	27
+	+	23	17
+	+	24	20
+	+	27	17
+	+	30	17
+	+	31	0
+	+	32	33
+	+	33	6
+	+	32	9
+	+	35	21
+	+	35	25
+	+	35	18
+	+	35	0
+	+	35	0
+	+	35	8
+	+	35	19
+	+	35	21
+	+	35	33
+	+	35	20
+	+	35	29
+	+	35	0
+	+	35	57
+	+	35	43
+	+	35	31
+	+	35	13
+	+	35	0
+	+	35	30
+	+	35	0
+	+	35	44
+	+	35	28
+	+	35	0
+	+	35	28
+	+	35	52
+	+	35	50
+	+	35	39
+	+	35	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/list_function.py
+	"	23	0
+	.	2	0
+	+	2	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/Comprehension.py
+	"	10	34
+	^	10	35
+	.	10	34
+	+	1	3
+	+	2	7
+	+	1	8
+	+	5	7
+	+	4	43
+	+	5	8
+	+	6	0
+	+	7	54
+	+	8	8
+	+	13	42
+	+	13	7
+	+	13	0
+	+	9	0
+	+	10	49
+	+	11	6
+	+	10	36
+	+	10	34
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/num.py
+	"	7	0
+	^	7	22
+	.	8	0
+	+	8	0
+	+	2	7
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	2	11
+	+	3	10
+	+	4	11
+	+	5	26
+	+	6	19
+	+	7	19
+	+	8	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/function/arguments.py
+	"	36	12
+	^	18	37
+	.	18	36
+	+	1	0
+	+	15	0
+	+	2	13
+	+	5	17
+	+	6	0
+	+	7	15
+	+	8	12
+	+	7	8
+	+	10	14
+	+	11	19
+	+	10	8
+	+	13	17
+	+	14	19
+	+	13	16
+	+	14	18
+	+	32	0
+	+	32	3
+	+	32	15
+	+	32	3
+	+	32	42
+	+	32	0
+	+	33	0
+	+	32	0
+	+	15	0
+	+	8	10
+	+	11	10
+	+	13	8
+	+	14	10
+	+	15	0
+	+	15	0
+	+	16	0
+	+	15	0
+	+	16	8
+	+	17	3
+	+	18	36
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/format.py
+	"	26	17
+	^	26	18
+	.	26	17
+	+	38	0
+	+	1	29
+	+	2	44
+	+	4	11
+	+	6	29
+	+	15	0
+	+	15	23
+	+	15	16
+	+	36	64
+	+	37	6
+	+	4	9
+	+	7	17
+	+	4	10
+	+	8	18
+	+	15	0
+	+	3	0
+	+	15	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	3	24
+	+	30	25
+	+	3	0
+	+	7	0
+	+	5	0
+	+	31	0
+	+	32	0
+	+	31	10
+	+	32	10
+	+	33	28
+	+	37	55
+	+	9	59
+	+	10	24
+	+	11	22
+	+	12	0
+	+	11	6
+	+	15	12
+	+	16	0
+	+	19	0
+	+	16	16
+	+	17	0
+	+	19	0
+	+	19	0
+	+	17	18
+	+	19	17
+	+	18	0
+	+	19	0
+	+	18	16
+	+	19	12
+	+	20	0
+	+	28	0
+	+	20	16
+	+	19	10
+	+	20	17
+	+	21	0
+	+	22	0
+	+	21	17
+	+	22	17
+	+	19	8
+	+	13	23
+	+	14	0
+	+	13	0
+	+	23	18
+	+	24	0
+	+	25	0
+	+	23	16
+	+	25	17
+	+	24	17
+	+	25	17
+	+	26	17
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class/abstractmethod.py
+	"	7	10
+	.	7	0
+	+	1	39
+	+	3	8
+	+	5	22
+	+	15	0
+	+	7	11
+	+	3	25
+	+	7	16
+	+	7	40
+	+	9	6
+	+	9	38
+	+	14	14
+	+	11	7
+	+	9	43
+	+	11	0
+	+	9	16
+	+	7	12
+	+	7	12
+	+	9	12
+	+	7	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/slice.py
+	"	18	0
+	^	11	0
+	.	19	0
+	+	19	0
+	+	4	11
+	+	4	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	4	0
+	+	7	0
+	+	4	0
+	+	5	0
+	+	8	0
+	+	4	9
+	+	7	10
+	+	8	11
+	+	3	0
+	+	2	7
+	+	10	11
+	+	11	0
+	+	19	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/decorator.py
+	"	14	11
+	^	11	30
+	.	11	29
+	+	1	0
+	+	5	27
+	+	7	25
+	+	11	27
+	+	14	5
+	+	13	25
+	+	14	10
+	+	5	29
+	+	7	14
+	+	11	29
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/class.py
+	"	4	0
+	^	4	0
+	.	4	0
+	+	5	26
+	+	2	0
+	+	5	22
+	+	6	7
+	+	4	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/metaclass.py
+	"	11	11
+	.	11	0
+	+	11	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/if.py
+	"	32	0
+	^	31	44
+	.	31	43
+	+	10	29
+	+	12	26
+	+	11	17
+	+	13	18
+	+	14	25
+	+	15	18
+	+	19	0
+	+	18	0
+	+	19	3
+	+	20	14
+	+	25	13
+	+	26	41
+	+	21	26
+	+	21	27
+	+	23	0
+	+	21	0
+	+	29	0
+	+	31	43
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/res/py/3/Syntax/for.py
+	"	4	33
+	^	4	34
+	.	4	33
+	+	1	4
+	+	2	10
+	+	6	0
+	+	4	33
+
+> /tmp/work/flow/do/1.md
+	"	1	0
+
+> /tmp/work/flow/do/0.md
+	"	1	0
+
+> /tmp/work/flow/do/0
+	"	1	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/TemplateFileMaker.py
+	"	23	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandReplaceFileLoader.py
+	"	1	13
+	^	20	61
+	.	20	60
+	+	3	0
+	+	4	23
+	+	20	60
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/CompleteSetter.py
+	"	14	0
+	^	1	3
+	.	1	2
+	+	2	20
+	+	2	10
+	+	2	44
+	+	2	16
+	+	2	23
+	+	2	44
+	+	2	45
+	+	2	0
+	+	2	1
+	+	2	0
+	+	2	3
+	+	2	33
+	+	2	18
+	+	2	14
+	+	2	0
+	+	1	0
+	+	1	2
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFileLoader.py
+	"	15	0
+	^	3	1
+	.	3	0
+	+	4	23
+	+	15	11
+	+	20	0
+	+	20	51
+	+	25	23
+	+	19	8
+	+	18	15
+	+	19	16
+	+	24	34
+	+	25	25
+	+	25	0
+	+	25	26
+	+	25	29
+	+	26	0
+	+	26	0
+	+	20	0
+	+	32	0
+	+	30	18
+	+	25	0
+	+	24	63
+	+	25	16
+	+	25	16
+	+	25	16
+	+	25	16
+	+	25	16
+	+	24	16
+	+	29	26
+	+	23	35
+	+	24	61
+	+	25	0
+	+	22	40
+	+	15	18
+	+	3	31
+	+	16	34
+	+	3	46
+	+	16	31
+	+	4	0
+	+	6	0
+	+	3	47
+	+	4	0
+	+	4	0
+	+	26	22
+	+	26	13
+	+	6	0
+	+	4	40
+	+	4	0
+	+	4	38
+	+	4	0
+	+	26	40
+	+	26	17
+	+	26	47
+	+	26	8
+	+	26	15
+	+	26	25
+	+	26	55
+	+	26	26
+	+	26	0
+	+	10	58
+	+	26	36
+	+	4	0
+	+	10	0
+	+	28	0
+	+	26	0
+	+	4	0
+	+	3	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandsFileMaker.py
+	"	7	0
+	^	37	0
+	.	37	0
+	+	22	12
+	+	7	26
+	+	26	39
+	+	18	51
+	+	18	46
+	+	22	16
+	+	18	49
+	+	20	32
+	+	22	0
+	+	17	13
+	+	19	16
+	+	20	43
+	+	28	42
+	+	6	10
+	+	7	51
+	+	28	42
+	+	6	0
+	+	28	25
+	+	28	12
+	+	28	12
+	+	28	35
+	+	28	0
+	+	28	12
+	+	28	60
+	+	6	0
+	+	8	71
+	+	18	38
+	+	29	0
+	+	29	8
+	+	29	15
+	+	29	8
+	+	28	0
+	+	28	12
+	+	28	67
+	+	20	25
+	+	29	8
+	+	29	8
+	+	29	8
+	+	17	0
+	+	31	0
+	+	29	36
+	+	29	19
+	+	28	0
+	+	29	0
+	+	27	57
+	+	9	0
+	+	14	3
+	+	35	7
+	+	32	31
+	+	35	40
+	+	36	0
+	+	20	54
+	+	36	0
+	+	35	15
+	+	34	24
+	+	34	70
+	+	36	8
+	+	2	13
+	+	34	15
+	+	35	0
+	+	34	43
+	+	34	69
+	+	35	41
+	+	35	22
+	+	35	24
+	+	34	66
+	+	35	0
+	+	34	25
+	+	34	0
+	+	36	0
+	+	34	25
+	+	12	13
+	+	13	38
+	+	9	0
+	+	12	0
+	+	11	62
+	+	12	0
+	+	9	0
+	+	14	4
+	+	9	4
+	+	36	0
+	+	13	20
+	+	11	8
+	+	13	18
+	+	18	0
+	+	16	0
+	+	4	0
+	+	38	37
+	+	39	7
+	+	42	8
+	+	9	35
+	+	3	39
+	+	20	15
+	+	21	0
+	+	20	0
+	+	20	0
+	+	21	16
+	+	22	0
+	+	31	6
+	+	37	0
+
+> /tmp/work/Python.TemplateFileMaker.20180314204216/src/CommandMaker.py
+	"	4	6
+	^	8	10
+	.	8	9
+	+	4	0
+	+	5	0
+	+	4	0
+	+	2	14
+	+	3	0
+	+	6	12
+	+	7	0
+	+	6	8
+	+	7	4
+	+	19	0
+	+	7	1
+	+	18	9
+	+	12	5
+	+	12	4
+	+	18	16
+	+	17	0
+	+	8	3
+	+	19	0
+	+	19	0
+	+	20	57
+	+	21	0
+	+	22	0
+	+	21	18
+	+	19	0
+	+	10	10
+	+	9	11
+	+	10	22
+	+	12	0
+	+	10	41
+	+	12	0
+	+	11	17
+	+	10	29
+	+	4	19
+	+	8	9
